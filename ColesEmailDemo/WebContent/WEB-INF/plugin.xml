@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.ibm.demo.wcm.customauthoringaction" name="Demo Custom Authoring Actions" version="1.0.0" provider-name="IBM">
+	<extension point="com.ibm.workplace.wcm.api.AuthoringAction" id="CustomEmailAuthoringAction">
+		<provider class="com.ibm.demo.wcm.CustomEmailAuthoringAction"/>
+	</extension>
+</plugin>
