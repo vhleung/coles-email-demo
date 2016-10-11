@@ -11,7 +11,7 @@ Features:
   * Iterates through all image elements, and include them as attachments to a MIME multipart message
 
 Output:
-  ![elements](images/elements.png)
+  ![output](images/output.png)
 
 To customise:
   * In ColesEmailDemo/src/com/ibm/demo/wcm/CustomEmailAuthoringAction.java, you can:
