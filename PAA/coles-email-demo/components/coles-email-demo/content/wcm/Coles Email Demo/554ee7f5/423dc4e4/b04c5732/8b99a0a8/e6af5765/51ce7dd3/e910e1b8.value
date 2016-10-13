@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<com.aptrix.pluto.security.SecurityControl version="1.0">
+   <super type="com.aptrix.pluto.control.AbstractControl">
+      <m_isDirty type="java.lang.Boolean">true</m_isDirty>
+      <m_validationRequired type="java.lang.Boolean">true</m_validationRequired>
+   </super>
+   <m_effective type="com.aptrix.pluto.security.PermissionEntry">
+      <super type="com.aptrix.pluto.control.AbstractControllable">
+         <m_controlMap type="com.aptrix.pluto.control.ControlMap">
+            <null/>
+         </m_controlMap>
+         <m_dataVersion type="com.aptrix.version.Version">
+            <null/>
+         </m_dataVersion>
+         <m_enableDirtyTracking type="java.lang.Boolean">true</m_enableDirtyTracking>
+         <m_extraData type="java.util.HashMap">
+            <entries>
+            </entries>
+         </m_extraData>
+         <m_isCheckedOut type="java.lang.Boolean">false</m_isCheckedOut>
+         <m_isNew type="java.lang.Boolean"><null/></m_isNew>
+         <m_isVersion type="java.lang.Boolean">false</m_isVersion>
+         <m_isVirtual type="java.lang.Boolean">false</m_isVirtual>
+         <m_lazyControls type="java.util.Set">
+            <null/>
+         </m_lazyControls>
+         <m_lazyLastModifiedDate type="java.lang.Long">-1</m_lazyLastModifiedDate>
+         <m_lazyLastModifier type="java.lang.String"><null/></m_lazyLastModifier>
+         <m_lazyPendingWorkflowState reference="7"/>
+         <m_lazyWorkflowState reference="6"/>
+         <m_parentId type="com.aptrix.identity.IdentityReference">
+            <null/>
+         </m_parentId>
+         <m_searchable type="java.lang.Boolean">true</m_searchable>
+         <m_validationRequired type="java.lang.Boolean">true</m_validationRequired>
+      </super>
+      <m_administratorAccess type="java.util.HashSet">
+         <entries>
+         </entries>
+      </m_administratorAccess>
+      <m_contributorAccess type="java.util.HashSet">
+         <entries>
+         </entries>
+      </m_contributorAccess>
+      <m_draftCreatorAccess type="java.util.Set">
+         <null/>
+      </m_draftCreatorAccess>
+      <m_editorAccess type="java.util.HashSet">
+         <entries>
+         </entries>
+      </m_editorAccess>
+      <m_isDirty type="java.lang.Boolean">true</m_isDirty>
+      <m_managerAccess type="java.util.HashSet">
+         <entries>
+            <entry reference="19"/>
+         </entries>
+      </m_managerAccess>
+      <m_markupEditorAccess type="java.util.HashSet">
+         <entries>
+         </entries>
+      </m_markupEditorAccess>
+      <m_privilegedUserAccess type="java.util.HashSet">
+         <entries>
+         </entries>
+      </m_privilegedUserAccess>
+      <m_reviewerAccess type="java.util.Set">
+         <null/>
+      </m_reviewerAccess>
+      <m_securityAdminAccess type="java.util.HashSet">
+         <entries>
+         </entries>
+      </m_securityAdminAccess>
+      <m_userAccess type="java.util.HashSet">
+         <entries>
+         </entries>
+      </m_userAccess>
+   </m_effective>
+   <m_inheritedOptions type="com.aptrix.pluto.security.SecurityInheritanceOptions">
+      <null/>
+   </m_inheritedOptions>
+   <m_permissions type="java.util.HashMap">
+      <entries>
+         <entry>
+            <key type="java.lang.String"><![CDATA[WORKFLOW_SECURITY_GLOBAL_KEY]]></key>
+            <value type="com.aptrix.pluto.security.PermissionEntry">
+               <super type="com.aptrix.pluto.control.AbstractControllable">
+                  <m_controlMap type="com.aptrix.pluto.control.ControlMap">
+                     <null/>
+                  </m_controlMap>
+                  <m_dataVersion type="com.aptrix.version.Version">
+                     <null/>
+                  </m_dataVersion>
+                  <m_enableDirtyTracking type="java.lang.Boolean">true</m_enableDirtyTracking>
+                  <m_extraData type="java.util.HashMap">
+                     <entries>
+                     </entries>
+                  </m_extraData>
+                  <m_isCheckedOut type="java.lang.Boolean">false</m_isCheckedOut>
+                  <m_isNew type="java.lang.Boolean"><null/></m_isNew>
+                  <m_isVersion type="java.lang.Boolean">false</m_isVersion>
+                  <m_isVirtual type="java.lang.Boolean">false</m_isVirtual>
+                  <m_lazyControls type="java.util.Set">
+                     <null/>
+                  </m_lazyControls>
+                  <m_lazyLastModifiedDate type="java.lang.Long">-1</m_lazyLastModifiedDate>
+                  <m_lazyLastModifier type="java.lang.String"><null/></m_lazyLastModifier>
+                  <m_lazyPendingWorkflowState reference="7"/>
+                  <m_lazyWorkflowState reference="6"/>
+                  <m_parentId type="com.aptrix.identity.IdentityReference">
+                     <null/>
+                  </m_parentId>
+                  <m_searchable type="java.lang.Boolean">true</m_searchable>
+                  <m_validationRequired type="java.lang.Boolean">true</m_validationRequired>
+               </super>
+               <m_administratorAccess type="java.util.HashSet">
+                  <entries>
+                  </entries>
+               </m_administratorAccess>
+               <m_contributorAccess type="java.util.HashSet">
+                  <entries>
+                  </entries>
+               </m_contributorAccess>
+               <m_draftCreatorAccess type="java.util.HashSet">
+                  <entries>
+                  </entries>
+               </m_draftCreatorAccess>
+               <m_editorAccess type="java.util.HashSet">
+                  <entries>
+                  </entries>
+               </m_editorAccess>
+               <m_isDirty type="java.lang.Boolean">true</m_isDirty>
+               <m_managerAccess type="java.util.HashSet">
+                  <entries>
+                     <entry reference="19"/>
+                  </entries>
+               </m_managerAccess>
+               <m_markupEditorAccess type="java.util.HashSet">
+                  <entries>
+                  </entries>
+               </m_markupEditorAccess>
+               <m_privilegedUserAccess type="java.util.HashSet">
+                  <entries>
+                  </entries>
+               </m_privilegedUserAccess>
+               <m_reviewerAccess type="java.util.HashSet">
+                  <entries>
+                  </entries>
+               </m_reviewerAccess>
+               <m_securityAdminAccess type="java.util.HashSet">
+                  <entries>
+                  </entries>
+               </m_securityAdminAccess>
+               <m_userAccess type="java.util.HashSet">
+                  <entries>
+                  </entries>
+               </m_userAccess>
+            </value>
+         </entry>
+      </entries>
+   </m_permissions>
+   <m_propagatedOptions type="com.aptrix.pluto.security.SecurityPropagationOptions">
+      <null/>
+   </m_propagatedOptions>
+
+   <ReferenceTable>
+      <entries>
+         <entry>
+            <key>6</key>
+            <value enumType="com.ibm.workplace.wcm.data.WorkflowState" type="java.lang.Enum"><![CDATA[NONE]]></value>
+         </entry>
+         <entry>
+            <key>7</key>
+            <value enumType="com.ibm.workplace.wcm.data.PendingState" type="java.lang.Enum"><![CDATA[NOT_PENDING]]></value>
+         </entry>
+         <entry>
+            <key>19</key>
+            <value type="com.presence.connect.wmmcomms.PrincipalInformation">
+               <m_distinguishedName type="java.lang.String"><![CDATA[uid=fadams,o=greenwell]]></m_distinguishedName>
+               <m_isUser type="java.lang.Boolean">true</m_isUser>
+               <m_isUserLazyLoaded type="java.lang.Boolean">false</m_isUserLazyLoaded>
+               <m_isValidUser type="java.lang.Boolean">true</m_isValidUser>
+               <m_memberID type="java.lang.String"><![CDATA[47aeaf40-7110-1034-9208-b495954bde4d]]></m_memberID>
+            </value>
+         </entry>
+      </entries>
+   </ReferenceTable>
+</com.aptrix.pluto.security.SecurityControl>

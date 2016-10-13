@@ -1,0 +1,117 @@
+
+   <a style="display: block; border:1px silver solid; background-color: #eee; margin-left: 10px; padding: 5px; width: 100px; font-weight: bold; color: black; text-align: center; border-radius: 5px;" href=" Email Design Template "> <img class="image-center" src=" 
+  <p> 
+  .email-content .main-content {
+    float: left;
+  }
+  .email-content .sidebar-content {
+    width: 170px;
+    float: left;
+    margin-left: 10px;
+  }
+ <img align="right" src=" 
+
+<div class="spacer">&nbsp;</div>
+
+<!-- Rich Text -->
+<p> Main Image Email Design Template 
+
+ 
+
+<div class="email-content">
+<div class="main-content">
+<!-- Image -->
+ 
+<!-- Option Selection -->
+<p> </h2>
+
+<!-- Rich Text -->
+<p> 
+   Teaser Email Design Template <img align="right" src="cid:sidebarimage">
+ Banner Image 
+
+</style>
+
+ </a> 
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<b>Email Design Template:</b>  
+
+<!-- Rich Text -->
+<p> Email Design Template Sidebar Title </p>
+
+<div style="clear:both;height:0;"></div>
+</div> <!-- /sidebar-content -->
+</div> <!-- /email-content --> 
+ Teaser <style>
+  .wpthemeOverflowAuto {
+    overflow: hidden;
+  }
+
+  .email-content {
+    width: 850px;
+    margin: 10px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .email-content .image-center {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .email-content .spacer {
+    display: block;
+    height: 10px;
+  }
+
+  .email-content .main-content {
+    width: 640px;
+  }
+
+  .email-content .sidebar-content {
+    width: 640px;
+    padding: 10px;
+    background-color:#e6e6e6
+  }
+
+  .email-content .sidebar-content h2 {
+    margin-top: 10px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+  }
+
+ "> </p>
+ com.ibm.workplace.wcm.api.WCM_Content/ 
+ 
+  <p> </p>
+
+<div class="spacer">&nbsp;</div>
+
+</div> <!-- /main-content -->
+
+<div class="sidebar-content">
+<!-- Image -->
+ Banner Image 
+   "> 
+ 
+   Sidebar Body Sidebar Image 
+ Body 
+ Sidebar Body Sidebar Image 
+
+<!-- Short Text -->
+<h2> <img class="image-center" src="cid:bannerimage">
+ <img class="image-center" src="cid:mainimage">
+ Main Image </p>
+
+<!-- Image -->
+ <img class="image-center" src=" Sidebar Title 
+ ">Review and Send Email 
+  .email-content .main-content {
+    float: right;
+  }
+  .email-content .sidebar-content {
+    width: 170px;
+    float: right;
+    margin-right: 10px;
+  }
+ Body 

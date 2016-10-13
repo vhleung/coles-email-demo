@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<java.util.ArrayList version="1.0">
+   <entries>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1474108992772</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=fadams,o=greenwell","Message":"Document created by Frank Adams","MessageArgs":["Frank Adams"],"EventCode":1100}]]></m_message>
+         <m_name type="java.lang.String"><![CDATA[Frank Adams]]></m_name>
+      </entry>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1474109118918</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=fadams,o=greenwell","Message":"Document updated by Frank Adams","MessageArgs":["Frank Adams"],"EventCode":1300}]]></m_message>
+         <m_name type="java.lang.String"><![CDATA[Frank Adams]]></m_name>
+      </entry>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1474109272598</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=fadams,o=greenwell","Message":"Document updated by Frank Adams","MessageArgs":["Frank Adams"],"EventCode":1300}]]></m_message>
+         <m_name type="java.lang.String"><![CDATA[Frank Adams]]></m_name>
+      </entry>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1474109785207</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=fadams,o=greenwell","Message":"Document updated by Frank Adams","MessageArgs":["Frank Adams"],"EventCode":1300}]]></m_message>
+         <m_name type="java.lang.String"><![CDATA[Frank Adams]]></m_name>
+      </entry>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1474109823162</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=fadams,o=greenwell","Message":"Document updated by Frank Adams","MessageArgs":["Frank Adams"],"EventCode":1300}]]></m_message>
+         <m_name type="java.lang.String"><![CDATA[Frank Adams]]></m_name>
+      </entry>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1474367461840</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=fadams,o=greenwell","Message":"Document updated by Frank Adams","MessageArgs":["Frank Adams"],"EventCode":1300}]]></m_message>
+         <m_name type="java.lang.String"><![CDATA[Frank Adams]]></m_name>
+      </entry>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1474416742484</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=fadams,o=greenwell","Message":"Document updated by Frank Adams","MessageArgs":["Frank Adams"],"EventCode":1300}]]></m_message>
+         <m_name type="java.lang.String"><![CDATA[Frank Adams]]></m_name>
+      </entry>
+   </entries>
+</java.util.ArrayList>
