@@ -31,7 +31,7 @@ import com.ibm.workplace.wcm.api.extensions.authoring.FormContext;
 
 public class CustomEmailAuthoringAction implements AuthoringAction {
 
-	private static final String BASE_URL = "http://graysonline.ibmcollabcloud.com/wps/wcm/connect/Coles+Demo/Home/";
+	private static final String BASE_URL = "http://graysonline.ibmcollabcloud.com/wps/wcm/connect/Coles+Email+Demo/Home/";
 	private static Session mailSession = null;
 
 	@Override
@@ -96,7 +96,6 @@ public class CustomEmailAuthoringAction implements AuthoringAction {
 			msg.setContent(multiPart);
 					
 			MimeBodyPart mainPart = new MimeBodyPart();
-			// mainPart.setContent("<!DOCTYPE html><html><body><b>hello world</b> <img src='cid:bannerimage'> <img src='cid:sidebaroneimage'>  <img src='cid:sidebartwoimage'>  this is normal text <p> yeah yeah </body></html>", "text/html");
 			mainPart.setContent(response.toString(), "text/html");
 			multiPart.addBodyPart(mainPart);
 			
