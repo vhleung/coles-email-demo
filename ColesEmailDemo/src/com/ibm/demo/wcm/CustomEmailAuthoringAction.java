@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Locale;
+import java.util.Set;
 
 import javax.activation.DataHandler;
 import javax.mail.Message;
@@ -16,9 +17,16 @@ import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 import javax.mail.util.ByteArrayDataSource;
+import javax.management.InstanceNotFoundException;
+import javax.management.MBeanException;
+import javax.management.MalformedObjectNameException;
+import javax.management.ObjectName;
+import javax.management.ReflectionException;
 import javax.naming.InitialContext;
 
 import com.ibm.portal.ListModel;
+import com.ibm.websphere.management.AdminService;
+import com.ibm.websphere.management.AdminServiceFactory;
 import com.ibm.workplace.wcm.api.Content;
 import com.ibm.workplace.wcm.api.Document;
 import com.ibm.workplace.wcm.api.DocumentId;
@@ -31,7 +39,8 @@ import com.ibm.workplace.wcm.api.extensions.authoring.FormContext;
 
 public class CustomEmailAuthoringAction implements AuthoringAction {
 
-	private static final String BASE_URL = "http://graysonline.ibmcollabcloud.com/wps/wcm/connect/Coles+Email+Demo/Home/";
+	private static final String BASE_SCHEME = "http";
+	private static final String BASE_PATH = "/wps/wcm/connect/Coles+Email+Demo/Home/";
 	private static Session mailSession = null;
 
 	@Override
@@ -70,7 +79,7 @@ public class CustomEmailAuthoringAction implements AuthoringAction {
 			String sidebarImageFilename = ((ImageComponent) content.getComponentByReference("Sidebar Image")).getImageFileName();
 			
 			HttpURLConnection connection = null;
-		    URL url = new URL(BASE_URL + content.getName());
+		    URL url = new URL(BASE_SCHEME + "://" + getWcmHost() + BASE_PATH + content.getName());
 		    connection = (HttpURLConnection) url.openConnection();
 		    connection.setRequestMethod("GET");
 		    connection.setUseCaches(false);
@@ -179,6 +188,29 @@ public class CustomEmailAuthoringAction implements AuthoringAction {
 		}
 
 		return mailSession;
+	}
+	
+	private String getWcmHost() {
+		try
+		{
+		    AdminService adminService = AdminServiceFactory.getAdminService();
+		    ObjectName queryName = new ObjectName( "WebSphere:*,type=AdminOperations" );
+		    Set objs = adminService.queryNames( queryName, null );
+		    if ( !objs.isEmpty() )
+		    {
+		        ObjectName thisObj = (ObjectName)objs.iterator().next();
+		        String opName = "expandVariable";
+		        String signature[] = { "java.lang.String" };
+		        String params[] = { "${WCM_HOST}" } ;
+		        String retVal = (String) adminService.invoke( thisObj, opName, params, signature );
+		        System.out.println( retVal );
+		        return retVal;
+		    }
+		} catch (Exception e) {
+		    e.printStackTrace();
+		} 
+		
+		return null;
 	}
 
 }
